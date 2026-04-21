@@ -1,17 +1,32 @@
-# Quartz v4
+# Agentic Vault Meta
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This repository contains the "meta-vault" that we used to build the [Agentic Vault](https://github.com/adamcee/agentic-vault) framework itself. It acts as a live, interactive case study of the Agentic Vault methodology in action (dogfooding the process).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+The site is powered by [Quartz](https://quartz.jzhao.xyz/), allowing you to navigate our internal Architecture Decision Records (ADRs), Product Decision Records (PDRs), research notes, and drafts using backlinks, graph views, and hover previews.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## 🚀 Running the Meta-Vault Locally
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+To run the Quartz site locally and explore the meta-vault:
 
-## Sponsors
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/adamcee/agentic-vault-meta.git
+   cd agentic-vault-meta
+   ```
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the local development server:**
+   ```bash
+   npx quartz build --serve
+   ```
+
+4. **View the site:**
+   Open `http://localhost:8080` in your web browser.
+
+---
+
+*For the actual Agentic Vault template and instructions on how to use it for your own projects, please visit the main [Agentic Vault Repository](https://github.com/adamcee/agentic-vault).*
