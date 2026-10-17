@@ -2,7 +2,7 @@
 *Single source of truth for every AI agent in the `agentic-vault` meta-project. Load this file first in every session. Updated: 2026-10-17.*
 
 ## Last Session Checkpoint
-On 2026-10-17, the template's master file became `AGENTS.md`, three example vaults replaced BrewTrack, and the writing discipline adopted ISO 24495-1. Both repos are committed on branch `docs-pass-2026-10`, not yet merged.
+On 2026-10-17, the template's master file became `AGENTS.md`, three example vaults replaced BrewTrack, and the writing discipline adopted ISO 24495-1. Both repos are merged to `main` but not pushed.
 
 Full log: [[session-history]].
 
@@ -14,7 +14,7 @@ The goal is to distill the highly effective structure, protocols, and discipline
 
 ## Current Phase
 
-**Phase 8: Docs Quality.** Template, examples, and website are published. Remaining work is merging the branch and the open items in the plan. See [[prototype/implementation-plan]].
+**Phase 8: Docs Quality.** Template, examples, and website are published. Remaining work is pushing `main` and the open items in the plan. See [[prototype/implementation-plan]].
 
 ## Project Structure
 

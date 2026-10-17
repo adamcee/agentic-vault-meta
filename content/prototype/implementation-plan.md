@@ -53,6 +53,7 @@ This is the vault ledger for building the Agentic Vault template project.
 - [x] Commit the 2026-10-17 docs pass in both repos (branch `docs-pass-2026-10`).
 - [x] Add ISO 24495-1 plain language to the writing discipline ([[decisions/product/PDR-P003-iso-plain-language|PDR-P003]], 2026-10-17).
 - [x] Fix website wikilinks in example vaults with an MkDocs hook; replace `mkdocs-roamlinks-plugin` (2026-10-17).
-- [ ] Fix the broken `website/.venv` (it points to the pre-move path) or delete it; it is gitignored.
-- [ ] Merge `docs-pass-2026-10` into `main` in both repos and push.
+- [x] Rebuild `website/.venv` from `requirements.txt` (2026-10-17).
+- [x] Merge `docs-pass-2026-10` into `main` in both repos (2026-10-17).
+- [ ] Push `main` in both repos. This deploys both public sites.
 - [ ] Revisit [[ideas/quartz-for-example-site]] now that there are three examples.
