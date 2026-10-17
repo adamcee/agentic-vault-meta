@@ -17,3 +17,4 @@ One line per session under its date, oldest first; append only and never rewrite
 - Replaced BrewTrack with three example vaults: software (Brigade), business (Curbside Cycles), creative (Low Tide) ([[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]). `website/docs/examples` is now a symlink, and an MkDocs hook replaced the roamlinks plugin so example wikilinks resolve.
 - Added ISO 24495-1 plain language to the writing discipline ([[decisions/product/PDR-P003-iso-plain-language|PDR-P003]]).
 - Merged `docs-pass-2026-10` into `main` in both repos and rebuilt `website/.venv`. Not pushed.
+- Added `website/README.md` with local run instructions.
