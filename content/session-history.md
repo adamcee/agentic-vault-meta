@@ -18,3 +18,4 @@ One line per session under its date, oldest first; append only and never rewrite
 - Added ISO 24495-1 plain language to the writing discipline ([[decisions/product/PDR-P003-iso-plain-language|PDR-P003]]).
 - Merged `docs-pass-2026-10` into `main` in both repos and rebuilt `website/.venv`. Not pushed.
 - Added `website/README.md` with local run instructions.
+- Moved the docs site to uv (`pyproject.toml`, `uv.lock`, Python 3.13); CI uses `astral-sh/setup-uv`.
