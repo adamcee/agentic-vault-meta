@@ -8,9 +8,7 @@ Full log: [[session-history]].
 
 ## What This Project Is
 
-This is the meta-vault used to build and organize the **Agentic Vault Template**. 
-
-The goal is to distill the highly effective structure, protocols, and discipline of the `chameleon_vault` into a domain-agnostic, reusable "Agentic Knowledge Base" template. This template is designed for both non-technical founders/writers and developers who want to manage context efficiently with AI agents (Claude Code, Gemini CLI, Obsidian MCP).
+This meta-vault manages the building of the **Agentic Vault**, a reusable vault template distilled from the source vault's structure and protocols. The template serves anyone working with AI over a long project, from writers and founders using web chat to developers using CLI agents.
 
 ## Current Phase
 
@@ -44,7 +42,7 @@ agentic-vault/        ← The public product.
 
 ## Task-Specific Context Loading
 
-- **Template Generation Session:** Load `architecture/CONSTITUTION.md` and the relevant phase in `prototype/implementation-plan.md`. Read the original `chameleon_vault` equivalents to ensure no structural nuance is lost.
+- **Template Generation Session:** Load `architecture/CONSTITUTION.md` and the relevant phase in `prototype/implementation-plan.md`. Compare against the source vault's equivalents so no structure is lost.
 - **Documentation Session:** Load the target `README.md` or guide, [[writing-discipline]], and `strategy/` for the target audience.
 
 ## Decision Records
@@ -53,6 +51,7 @@ agentic-vault/        ← The public product.
 - [[decisions/product/PDR-P001-no-source-project-in-public-docs|PDR-P001]]: No source-project references in the public repo.
 - [[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]: Three example vaults (software, business, creative) replace BrewTrack.
 - [[decisions/product/PDR-P003-iso-plain-language|PDR-P003]]: Writing discipline adopts ISO 24495-1 plain language.
+- [[decisions/product/PDR-P004-night-post-flagship-example|PDR-P004]]: Night Post is the flagship example, published with Quartz.
 
 ## Session History
 
