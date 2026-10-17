@@ -57,3 +57,14 @@ This is the vault ledger for building the Agentic Vault template project.
 - [x] Merge `docs-pass-2026-10` into `main` in both repos (2026-10-17).
 - [ ] Push `main` in both repos. This deploys both public sites.
 - [ ] Revisit [[ideas/quartz-for-example-site]] now that there are three examples.
+
+## Phase 9: Source-Vault Parity (Current)
+- [x] Gap report: compare the source vault with the template (2026-10-17, read-only).
+- [x] Port protocol pages, style guides, and the research-paper discipline to `template/vault-guide/` ([[decisions/technical/ADR-T002-port-source-vault-protocols|ADR-T002]]).
+- [x] Port link checker, autolinker, lint, review scan, and tag aligner; upgrade `vault-start` and `prompt-architect`.
+- [x] Template structure: folder READMEs, human task list, weekly logs, `prompts/`, `.link-check-ignore`, `.gitignore` that tracks `drafts/`.
+- [x] Docs site: Session Logs and Vault Maintenance pages; Obsidian setup page.
+- [~] Bring the three examples up to the new template.
+- [ ] Push `main` in both repos once Adam approves. This deploys both sites, including Night Post at `/night-post/`.
+- [ ] Decide whether this meta-vault adopts the full template structure (folder READMEs, human task list, scripts).
+

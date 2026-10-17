@@ -48,6 +48,7 @@ agentic-vault/        ← The public product.
 ## Decision Records
 
 - [[decisions/technical/ADR-T001-agents-md-master-file|ADR-T001]]: `AGENTS.md` is the template's master file.
+- [[decisions/technical/ADR-T002-port-source-vault-protocols|ADR-T002]]: Port the source vault's newer protocols and tooling.
 - [[decisions/product/PDR-P001-no-source-project-in-public-docs|PDR-P001]]: No source-project references in the public repo.
 - [[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]: Three example vaults (software, business, creative) replace BrewTrack.
 - [[decisions/product/PDR-P003-iso-plain-language|PDR-P003]]: Writing discipline adopts ISO 24495-1 plain language.
@@ -55,4 +56,4 @@ agentic-vault/        ← The public product.
 
 ## Session History
 
-[[session-history]]
+[[session-history]], one line per session in the form `- (agent, session type) what changed`. Weekly detail: `prototype/implementation-logs/`.
