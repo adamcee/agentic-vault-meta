@@ -1,37 +1,34 @@
 ---
-title: Welcome to the Meta-Vault
+title: Agentic Vault Meta
 ---
 
 # Agentic Vault Meta
 
-Welcome to the interactive "meta-vault" for the [Agentic Vault](https://github.com/adamcee/agentic-vault) project.
+This site publishes the vault used to build the [Agentic Vault](https://github.com/adamcee/agentic-vault): its notes, decisions, ideas, and drafts. The project was built with its own method, and this is the record.
 
-This site is a live, navigable graph of the actual notes, decisions, research, and drafts we generated while designing and building the Agentic Vault methodology. We dogfooded our own process to create the framework, and this site lets you explore that process exactly as the AI saw it.
+Follow links, check the backlinks at the bottom of each page, and hover over a link to preview it.
 
-## 🧭 How to Explore
+## Core Files
 
-Because this is a Quartz-powered digital garden, you can navigate the project just like an AI agent does: follow the links, check the backlinks at the bottom of pages, and hover over internal links to see previews.
+- [[CLAUDE.md|CLAUDE.md]]: the entry point every AI session reads first.
+- [[architecture/CONSTITUTION.md|Constitution]]: the project's hard constraints.
+- [[writing-discipline|Writing Discipline]]: the rules every document follows.
+- [[session-history|Session History]]: one entry per working session.
 
-Here are a few great places to start exploring:
+## Drafts
 
-### 1. The Core Directives
-These are the files that form the "Single Source of Truth" (SSOT) and govern the vault's behavior.
-* [[CLAUDE.md|The Routing Document]] – The entry point for the AI session.
-* [[architecture/CONSTITUTION.md|The Constitution]] – The hard invariant constraints of the project.
-* [[writing-discipline|Writing Discipline]] – The strict formatting rules we enforce on all AI output.
+The methodology pages started as AI drafts, then were tightened for the docs site. The raw drafts are kept here:
 
-### 2. The Workshop (Drafts)
-The methodology was synthesized from real-world usage and distilled into formal documentation over many sessions. You can read the original, raw AI drafting process in the drafts folder:
-* [[drafts/agentic-vault-expanded-methodolgy-whitebaper|The Expanded Methodology Draft]]
-* [[drafts/agentic-vault-4-reweave-protocol|Draft: Reweave Protocol]]
-* [[drafts/agentic-vault-11-personas-as-design-constraint|Draft: Personas as Constraint]]
+- [[drafts/agentic-vault-expanded-methodolgy-whitebaper|Expanded methodology draft]]
+- [[drafts/agentic-vault-4-reweave-protocol|Reweave Protocol draft]]
+- [[drafts/agentic-vault-10-the-ingestion-gate|Ingestion Gate draft]]
 
-### 3. Ideas & Planning
-The short-form thinking layer before decisions are finalized.
-* [[prototype/implementation-plan|The Implementation Ledger]]
-* [[ideas/separate-project-vault-repo|Idea: Separate the Meta-Vault]] (The very note that led to the creation of this site!)
+## Ideas and Planning
 
----
+- [[prototype/implementation-plan|Implementation plan]]
+- [[ideas/separate-project-vault-repo|Separate the meta-vault]], the idea that led to this site.
+- [[ideas/rework-example-vault|Rework the example vault]]
 
-### What is this project?
-The Agentic Vault is a domain-agnostic, AI-native knowledge base template designed to stop context loss and hallucination in LLM coding and planning sessions. If you are looking for the main repository or the official installation instructions, please visit the main [Agentic Vault GitHub Repository](https://github.com/adamcee/agentic-vault).
+## About the Agentic Vault
+
+The Agentic Vault is a markdown vault template that gives AI sessions persistent project memory. For the template and setup instructions, see the [main repository](https://github.com/adamcee/agentic-vault).

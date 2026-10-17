@@ -1,9 +1,9 @@
 ---
 id: separate-project-vault-repo
 date: 2026-04-17
-status: idea
+status: resolved
 tags: [architecture, repository-structure, quartz, publishing]
-resolved-by: null
+resolved-by: "implemented 2026-04-21 — extracted to the agentic-vault-meta repo (agentic-vault commit a53f178)"
 ---
 # Idea: Separate the Meta-Vault into its Own Repository
 

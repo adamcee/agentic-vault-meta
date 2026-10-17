@@ -11,7 +11,7 @@ tags: [architecture, invariants, template-design]
 ## Part I — Design Invariants
 
 - **D1 — Strict Domain Agnosticism**
-The `template/` directory must be a completely blank slate structurally. It must contain no specific product, persona, or technical stack references from its source (Chameleon). Placeholders must clearly indicate where the user should inject their own domain knowledge (e.g., `[Insert Project Name Here]`).
+The `template/` directory must be a blank slate structurally. No file in the `agentic-vault` repo (`template/`, `example/`, `website/`, `README.md`) may name or describe the source project, including its product, personas, or stack. Amended 2026-10-17 by [[decisions/product/PDR-P001-no-source-project-in-public-docs|PDR-P001]]. Placeholders must clearly indicate where the user should inject their own domain knowledge (e.g., `[Insert Project Name Here]`).
 
 - **D2 — The "CLAUDE.md" Primacy**
 The template relies on `CLAUDE.md` (or a similarly named master context file if we rename it to be model-agnostic, e.g., `SYSTEM.md` or `AGENT.md`) as the Single Source of Truth (SSOT). All other documentation stems from this routing point.

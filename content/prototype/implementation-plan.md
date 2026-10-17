@@ -1,5 +1,5 @@
 # Implementation Plan: Agentic Vault Template
-*Updated: 2026-04-17*
+*Updated: 2026-10-17*
 
 This is the vault ledger for building the Agentic Vault template project.
 
@@ -34,6 +34,20 @@ This is the vault ledger for building the Agentic Vault template project.
 ## Phase 7: Next Session Priorities
 - [ ] Setup GitHub Pages for the main site (MkDocs deployment verification).
 - [ ] Add a best-practice research doc (written by Claude) on the vault methodology, principles, and how it works to the project.
-- [ ] Extract the `project_vault/` into a separate repository and build a beautiful, public Quartz site for it. Link it back to the main repository.
-- [ ] Research and document a good Windows alternative to Obsidian, other general Obsidian alternatives, and a web-based note-taking alternative to give users multiple tooling options.
+- [x] Extract the `project_vault/` into a separate repository and build a public Quartz site for it. Link it back to the main repository. (Done 2026-04-21: `agentic-vault-meta`.)
+- [x] Research and document a good Windows alternative to Obsidian, other general Obsidian alternatives, and a web-based note-taking alternative to give users multiple tooling options. (Done: `website/docs/installation/tooling-alternatives.md`.)
 - [ ] Fix the BrewTrack example vault links (they currently route back to the homepage).
+
+## Phase 8: Docs Quality (Current)
+- [x] Remove personas-as-design-constraint from the methodology (2026-05-06, commit `e520e8b`).
+- [x] Remove source-project examples from `sources.md` (2026-05-06, commit `af4e23b`).
+- [x] Tighten README, website pages, and template docs against [[writing-discipline]] (2026-10-17).
+- [x] Add "What the Vault Enables" to Design & Goals (2026-10-17).
+- [x] Remove the dead `personas-as-constraint.md` entry from `mkdocs.yml` nav (2026-10-17).
+- [x] Remove source-domain leftovers from template `AGENTS.md` and `SYSTEM.md` ("pedagogy," "learning science") (2026-10-17).
+- [x] Fix `SYSTEM.md` "7-point" checklist reference; the checklist has 10 points (2026-10-17).
+- [ ] Rework the example vault. See [[ideas/rework-example-vault]].
+- [ ] Verify the MCDP-7 citation. Sources lists it for Commander's Intent, but MCDP-7 covers learning; Commander's Intent is usually sourced to MCDP 1 or MCDP 6.
+- [ ] Decide whether the template's master file should move from `SYSTEM.md` to `AGENTS.md`, which more tools now read by default and which the source vault adopted.
+- [ ] Add a session-history file and checkpoint routine to the template that match this meta-vault's.
+- [ ] Commit the 2026-10-17 docs pass in both repos.
