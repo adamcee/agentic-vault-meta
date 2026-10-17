@@ -13,8 +13,8 @@ tags: [architecture, invariants, template-design]
 - **D1 — Strict Domain Agnosticism**
 The `template/` directory must be a blank slate structurally. No file in the `agentic-vault` repo (`template/`, `example/`, `website/`, `README.md`) may name or describe the source project, including its product, personas, or stack. Amended 2026-10-17 by [[decisions/product/PDR-P001-no-source-project-in-public-docs|PDR-P001]]. Placeholders must clearly indicate where the user should inject their own domain knowledge (e.g., `[Insert Project Name Here]`).
 
-- **D2 — The "CLAUDE.md" Primacy**
-The template relies on `CLAUDE.md` (or a similarly named master context file if we rename it to be model-agnostic, e.g., `SYSTEM.md` or `AGENT.md`) as the Single Source of Truth (SSOT). All other documentation stems from this routing point.
+- **D2 — AGENTS.md Primacy**
+The template's `AGENTS.md` is the single source of truth. Tool-specific files (`CLAUDE.md`, `GEMINI.md`, `.cursorrules`, `.windsurfrules`) only point to it. Amended 2026-10-17 by [[decisions/technical/ADR-T001-agents-md-master-file|ADR-T001]].
 
 - **D3 — Tiered Accessibility (Graceful Degradation)**
 The template must not break if a user lacks technical skills. Protocols must offer a "manual" or "web app" fallback. For instance, if an automated script or a `.claude/skill/` isn't available, the documentation must explain how to manually verify links or update indexes.
@@ -27,8 +27,8 @@ The vault methodology (Decision Records, Reweave Protocols, Research Traceabilit
 - **O1 — Three Distinct Outputs**
 The project must produce:
 1. `template/` — The blank, reusable directory structure.
-2. `example/` — The populated demonstration vault.
+2. `examples/` — Three populated demonstration vaults: software, business, and creative ([[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]).
 3. `website/` or `docs/` — The tiered installation and philosophy guide.
 
 - **O2 — The Interactive Setup Guide**
-We must produce an interactive AI prompt that acts as an onboarding wizard. It will ask the user about their environment and context, then generate their initial `CLAUDE.md`, `CONSTITUTION.md`, and directory structure dynamically.
+We must produce an interactive AI prompt that acts as an onboarding wizard. It will ask the user about their environment and context, then fill in their `AGENTS.md` and `CONSTITUTION.md`.

@@ -1,9 +1,9 @@
 ---
 id: rework-example-vault
 date: 2026-10-17
-status: idea
+status: resolved
 tags: [example, documentation, website]
-resolved-by: null
+resolved-by: "[[decisions/product/PDR-P002-three-example-vaults]]"
 ---
 # Idea: Rework the Example Vault
 

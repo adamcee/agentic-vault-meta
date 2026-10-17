@@ -10,7 +10,7 @@ Follow links, check the backlinks at the bottom of each page, and hover over a l
 
 ## Core Files
 
-- [[CLAUDE.md|CLAUDE.md]]: the entry point every AI session reads first.
+- [[AGENTS.md|AGENTS.md]]: the entry point every AI session reads first.
 - [[architecture/CONSTITUTION.md|Constitution]]: the project's hard constraints.
 - [[writing-discipline|Writing Discipline]]: the rules every document follows.
 - [[session-history|Session History]]: one entry per working session.

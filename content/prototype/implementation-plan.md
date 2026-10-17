@@ -36,7 +36,7 @@ This is the vault ledger for building the Agentic Vault template project.
 - [ ] Add a best-practice research doc (written by Claude) on the vault methodology, principles, and how it works to the project.
 - [x] Extract the `project_vault/` into a separate repository and build a public Quartz site for it. Link it back to the main repository. (Done 2026-04-21: `agentic-vault-meta`.)
 - [x] Research and document a good Windows alternative to Obsidian, other general Obsidian alternatives, and a web-based note-taking alternative to give users multiple tooling options. (Done: `website/docs/installation/tooling-alternatives.md`.)
-- [ ] Fix the BrewTrack example vault links (they currently route back to the homepage).
+- [x] Fix the BrewTrack example vault links. (Superseded: BrewTrack removed; the new examples use the wikilink hook.)
 
 ## Phase 8: Docs Quality (Current)
 - [x] Remove personas-as-design-constraint from the methodology (2026-05-06, commit `e520e8b`).
@@ -46,8 +46,13 @@ This is the vault ledger for building the Agentic Vault template project.
 - [x] Remove the dead `personas-as-constraint.md` entry from `mkdocs.yml` nav (2026-10-17).
 - [x] Remove source-domain leftovers from template `AGENTS.md` and `SYSTEM.md` ("pedagogy," "learning science") (2026-10-17).
 - [x] Fix `SYSTEM.md` "7-point" checklist reference; the checklist has 10 points (2026-10-17).
-- [ ] Rework the example vault. See [[ideas/rework-example-vault]].
-- [ ] Verify the MCDP-7 citation. Sources lists it for Commander's Intent, but MCDP-7 covers learning; Commander's Intent is usually sourced to MCDP 1 or MCDP 6.
-- [ ] Decide whether the template's master file should move from `SYSTEM.md` to `AGENTS.md`, which more tools now read by default and which the source vault adopted.
-- [ ] Add a session-history file and checkpoint routine to the template that match this meta-vault's.
-- [ ] Commit the 2026-10-17 docs pass in both repos.
+- [x] Rework the example vault: three examples (software, business, creative) replace BrewTrack ([[decisions/product/PDR-P002-three-example-vaults|PDR-P002]], 2026-10-17).
+- [x] MCDP-7 citation reviewed; Adam kept it as is (2026-10-17).
+- [x] Move the template's master file from `SYSTEM.md` to `AGENTS.md` ([[decisions/technical/ADR-T001-agents-md-master-file|ADR-T001]], 2026-10-17). The meta-vault's own master file moved too.
+- [x] Add `session-history.md` and a Last Session Checkpoint to the template (2026-10-17).
+- [x] Commit the 2026-10-17 docs pass in both repos (branch `docs-pass-2026-10`).
+- [x] Add ISO 24495-1 plain language to the writing discipline ([[decisions/product/PDR-P003-iso-plain-language|PDR-P003]], 2026-10-17).
+- [x] Fix website wikilinks in example vaults with an MkDocs hook; replace `mkdocs-roamlinks-plugin` (2026-10-17).
+- [ ] Fix the broken `website/.venv` (it points to the pre-move path) or delete it; it is gitignored.
+- [ ] Merge `docs-pass-2026-10` into `main` in both repos and push.
+- [ ] Revisit [[ideas/quartz-for-example-site]] now that there are three examples.
