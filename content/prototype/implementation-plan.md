@@ -66,7 +66,7 @@ This is the vault ledger for building the Agentic Vault template project.
 - [x] Docs site: Session Logs and Vault Maintenance pages; Obsidian setup page.
 - [x] Bring the examples up to the new template.
 - [x] Move Night Post and Curbside Cycles into their own repos; drop Brigade ([[decisions/product/PDR-P005-example-vaults-in-own-repos|PDR-P005]]).
-- [ ] Create the GitHub repos `night-post-vault` and `curbside-cycles-vault`, push, and enable Pages (needs Adam: `gh` lacks repo-create permission).
+- [x] Create the GitHub repos `night-post-vault` and `curbside-cycles-vault`, push, and enable Pages. Both sites live 2026-10-17.
 - [ ] Sync template changes into both example repos whenever the template changes.
 - [ ] Push `main` in both repos once Adam approves. This deploys both sites, including Night Post at `/night-post/`.
 - [ ] Decide whether this meta-vault adopts the full template structure (folder READMEs, human task list, scripts).
