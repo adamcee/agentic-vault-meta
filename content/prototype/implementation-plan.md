@@ -71,3 +71,13 @@ This is the vault ledger for building the Agentic Vault template project.
 - [ ] Push `main` in both repos once Adam approves. This deploys both sites, including Night Post at `/night-post/`.
 - [ ] Decide whether this meta-vault adopts the full template structure (folder READMEs, human task list, scripts).
 
+## Phase 10: Launch Polish (Current)
+- [x] **Licenses**: MIT `LICENSE` in `agentic-vault`, `night-post-vault`, and `curbside-cycles-vault` (2026-10-17).
+- [x] **Source-vault script bugs**: filed as chameleon-harness #233 (high priority); the source vault's coordinator session took it (2026-10-17).
+- [x] **Example drift**: `scripts/sync-examples.py` copies `vault-guide/`, `.claude/skills/`, and the pointer files from the template into both example repos; `--check` reports drift (2026-10-17).
+- [x] **Setup paths tested** (2026-10-17): Claude Code loads `AGENTS.md` through `@AGENTS.md`; the beginner prompt asks the right first questions; the MCP plugin's endpoint is now in Obsidian Setup. Gemini CLI was retired for individual accounts on 2026-06-18, so the docs now name Antigravity CLI (`agy`), which reads `AGENTS.md`. Cursor reads `AGENTS.md` per its docs; Windsurf could not be confirmed, so the docs rely on `.windsurfrules`.
+- [ ] **Test Codex**: confirm Codex reads `AGENTS.md` in a fresh vault; Codex isn't installed on this machine (build).
+- [ ] **Final name**: replace the working title "Agentic Vault" with a final name, or decide to keep it (decision).
+- [ ] **Prettier site, clearer copy**: redesign the docs site and tighten how the homepage explains the vault. Contrast our opening with Foam's ([docs.foam.md](https://docs.foam.md/), formerly [foambubble.github.io/foam](https://foambubble.github.io/foam/)), which leads with one sentence naming what it is and what it runs on: "Foam is a personal knowledge management system built on Visual Studio Code and GitHub." Ours leads with the problem. Use Foam as the reference for a clean, simple look. Maybe try Claude Design for the redesign, but avoid design slop: generic gradients, stock hero sections, emoji icons, and decoration that explains nothing (design).
+- [ ] **gh token**: Adam widens the token (create repos, manage Pages, re-run workflows) or switches to browser login, so agents can publish end to end. Adam will do this later.
+
