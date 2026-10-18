@@ -2,12 +2,12 @@
 doctype: PDR
 id: PDR-P002
 domain: product
-status: accepted
+status: superseded
 date: 2026-10-17
 tags: [example, documentation, domain-agnostic]
 constitution-clause: O1
 supersedes: null
-superseded-by: null
+superseded-by: "[[decisions/product/PDR-P005-example-vaults-in-own-repos]]"
 ---
 # PDR-P002: Three Example Vaults Replace BrewTrack
 

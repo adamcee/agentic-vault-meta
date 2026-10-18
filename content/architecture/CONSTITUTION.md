@@ -19,6 +19,6 @@ tags: [architecture, invariants, template-design]
 
 - **O1 — Three outputs.** The project produces:
   1. `template/`: the blank, reusable vault.
-  2. `examples/`: three filled-in vaults, software, business, and creative ([[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]), with Night Post published as an interactive site ([[decisions/product/PDR-P004-night-post-flagship-example|PDR-P004]]).
+  2. Example vaults: Night Post and Curbside Cycles, each in its own repo with its own site ([[decisions/product/PDR-P005-example-vaults-in-own-repos|PDR-P005]]).
   3. `website/`: the setup and methodology docs.
 - **O2 — Setup wizard.** An AI prompt asks about the user's project and fills in their `AGENTS.md` and `CONSTITUTION.md`.

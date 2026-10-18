@@ -22,8 +22,9 @@ Two repos, checked out side by side in `~/ai/agentic-vault/`:
 agentic-vault-meta/   ← This repo. The meta-vault, published with Quartz. Vault files live in content/.
 agentic-vault/        ← The public product.
 ├── template/         ← The domain-agnostic vault template.
-├── examples/         ← Three filled-in example vaults: software/, business/, creative/.
-└── website/          ← MkDocs site. website/docs/examples is a symlink to examples/.
+└── website/          ← MkDocs site.
+night-post-vault/      ← Example vault repo (game), published with Quartz from .site/.
+curbside-cycles-vault/ ← Example vault repo (business), same setup.
 ```
 
 ## Hard Constraints
@@ -53,6 +54,7 @@ agentic-vault/        ← The public product.
 - [[decisions/product/PDR-P002-three-example-vaults|PDR-P002]]: Three example vaults (software, business, creative) replace BrewTrack.
 - [[decisions/product/PDR-P003-iso-plain-language|PDR-P003]]: Writing discipline adopts ISO 24495-1 plain language.
 - [[decisions/product/PDR-P004-night-post-flagship-example|PDR-P004]]: Night Post is the flagship example, published with Quartz.
+- [[decisions/product/PDR-P005-example-vaults-in-own-repos|PDR-P005]]: Two example vaults, each in its own repo; supersedes PDR-P002.
 
 ## Session History
 

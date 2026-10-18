@@ -21,3 +21,4 @@ One line per session, `- (agent, session type) what changed`, under its date hea
 - (Claude Code, documentation) Moved the docs site to uv (`pyproject.toml`, `uv.lock`, Python 3.13); CI uses `astral-sh/setup-uv`.
 - (Claude Code, documentation) Built Night Post as the flagship example with a Quartz site ([[decisions/product/PDR-P004-night-post-flagship-example|PDR-P004]]); added the Obsidian setup page; slop pass on everything.
 - (Claude Code, vault maintenance) Ported source-vault protocols, structure, and scripts to the template ([[decisions/technical/ADR-T002-port-source-vault-protocols|ADR-T002]]); started weekly logs at [[prototype/implementation-logs/2026-W42]].
+- (Claude Code, documentation) Beginner setup prompts, tooling recommendations, Notion prompt; Night Post and Curbside Cycles moved to their own repos and Brigade dropped ([[decisions/product/PDR-P005-example-vaults-in-own-repos|PDR-P005]]).
