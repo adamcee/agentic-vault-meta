@@ -24,3 +24,4 @@ One line per session, `- (agent, session type) what changed`, under its date hea
 - (Claude Code, documentation) Beginner setup prompts, tooling recommendations, Notion prompt; Night Post and Curbside Cycles moved to their own repos and Brigade dropped ([[decisions/product/PDR-P005-example-vaults-in-own-repos|PDR-P005]]).
 - (Claude Code, documentation) Example vault repos created and pushed; both Quartz sites live at adamcee.github.io/night-post-vault and adamcee.github.io/curbside-cycles-vault.
 - (Claude Code, documentation) Added MIT licenses, filed chameleon-harness #233, added `scripts/sync-examples.py`, tested setup paths (Gemini CLI retired, docs now name Antigravity CLI), and logged launch-polish items: final name and a site redesign with Foam as the reference.
+- (Claude Code, documentation) Rewrote the homepage, README, and template README openings to lead with a one-sentence definition, following the Foam contrast.
